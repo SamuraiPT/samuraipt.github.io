@@ -5,7 +5,7 @@
 // @description  Only for voiders
 // @author       Asuma
 // @scriptbased  Flox
-// @icon         https://imgur.com/MIZFVVV
+// @icon         https://raw.githubusercontent.com/samuraipt.github.io/blob/master/pixelzone/void/voidlogo.png
 // @updateURL    https://raw.githubusercontent.com/SamuraiPT/samuraipt.github.io/pixelzone/scripts/voidbot.js
 // @downloadURL  https://raw.githubusercontent.com/SamuraiPT/samuraipt.github.io/pixelzone/scripts/voidbot.js
 // @match        https://pixelzone.io/*
