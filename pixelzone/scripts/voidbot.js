@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         𝚅𝚘𝚒𝚍 𝙱𝚘𝚝
 // @namespace    http://tampermonkey.net/
-// @version      1.1.0
+// @version      1.2.0
 // @description  Only for voiders
 // @author       Asuma
 // @scriptbased  Flox
