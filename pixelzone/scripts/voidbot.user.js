@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         𝚅𝚘𝚒𝚍 𝙱𝚘𝚝
 // @namespace    http://tampermonkey.net/
-// @version      1.2.0
+// @version      1.2.1
 // @description  Only for voiders
 // @author       Asuma
 // @scriptbased  Flox
-// @icon         https://raw.githubusercontent.com/samuraipt.github.io/blob/master/pixelzone/void/voidlogo.png
+// @icon         https://raw.githubusercontent.com/samuraipt.github.io/master/pixelzone/void/voidlogo.png
 // @updateURL    https://raw.githubusercontent.com/SamuraiPT/samuraipt.github.io/pixelzone/scripts/voidbot.js
 // @downloadURL  https://raw.githubusercontent.com/SamuraiPT/samuraipt.github.io/pixelzone/scripts/voidbot.js
 // @match        https://pixelzone.io/*
