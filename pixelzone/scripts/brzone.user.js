@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         Br-Zone Minimap
 // @namespace    http://tampermonkey.net/
-// @version      1.2.0
+// @version      1.1.0
 // @description  -
 // @author       Meatie & Asuma
 // @match        https://pixelzone.io/*
+// @updateURL    https://raw.githubusercontent.com/SamuraiPT/samuraipt.github.io/raw/master/pixelzone/scripts/brzone.user.js
 // @grant        none
 // ==/UserScript==
 /*Mapa editado a partir do https://github.com/meatie-se/pixel-minimap
@@ -17,7 +18,7 @@ X - Esconder os elementos do pixelzone
 */
 
 // Default location of template images and templates.json. Is user input and stored in a cookie.
-var TemplateUrl = 'https://raw.githubusercontent.com/sad1502/templates/master/';
+var baseTemplateUrl = 'https://raw.githubusercontent.com/sad1502/templates/master/';
 var vers = "Brasil-Zone Minimap";
 var range = 50
 
@@ -43,7 +44,7 @@ window.addEventListener('load', function() {
 function startup() {
   var i, t = getCookie("baseTemplateUrl");
   if(!t) {
-    t = prompt("Coloque o link das suas templates.", baseTemplateUrl);
+    t = prompt("Location of template images and templates.json\nhttps: is required. Stores in a cookie.", baseTemplateUrl);
     if(t) setCookie("baseTemplateUrl", t);
     else t = "";
   }
