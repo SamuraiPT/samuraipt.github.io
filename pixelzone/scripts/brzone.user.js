@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Br-Zone Minimap
 // @namespace    http://tampermonkey.net/
-// @version      1.1.0
+// @version      1.2.0
 // @description  -
 // @author       Meatie & Asuma
 // @match        https://pixelzone.io/*
